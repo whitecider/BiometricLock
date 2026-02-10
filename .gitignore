@@ -1,0 +1,16 @@
+# Build directory
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
