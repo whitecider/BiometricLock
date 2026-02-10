@@ -11,7 +11,7 @@ This document details the physical connection and wiring for the M5AtomS3R syste
 | **Fingerprint Sensor** | Capacitive Fingerprint Sensor | [Mouser Electronics](https://www.mouser.co.uk/ProductDetail/Adafruit/4651?qs=hWgE7mdIu5QeotkqGbcDDQ%3D%3D) |
 | **Mag Switch** | ASSEMtech S1367 (SPDT) | [RS Online](https://uk.rs-online.com/web/p/magnetic-proximity-switches/2897806) |
 | **Magnet** | Initial Magnet | [RS Online](https://uk.rs-online.com/web/p/sensor-accessories/2897812) |
-| **Servo** | M5Stack 360 Servo | [M5Stack Product Page](https://shop.m5stack.com/products/m5stack-servo-kit-360) |
+| **DC Motor** | GA12-N20 DC 6V 60RPM Gear Motor | [Amazon UK](https://www.amazon.co.uk/dp/B08LD87SLT?ref=fed_asin_title) |
 
 ## 2. Port Reference (Atomic Motion Base)
 
@@ -19,7 +19,7 @@ This document details the physical connection and wiring for the M5AtomS3R syste
 | :--- | :--- | :--- | :--- |
 | **Port B** | Black | Base Side | **G7, G8** |
 | **Port C** | Blue | Base Side | **G5, G6** |
-| **Port S1** | - | Base Servo Header | **Servo Ch 1** |
+| **Port M1** | - | Base DC Motor Terminals | **DC Motor Ch 0** |
 
 ---
 
@@ -48,9 +48,9 @@ This document details the physical connection and wiring for the M5AtomS3R syste
 
 *(Note: Insulate the unused Green wire)*
 
-### C. Servo
-**Connect to Servo Interface.**
+### C. DC Motor
+**Connect to DC Motor Terminals (M1).**
 
 | Component | Connect To | Target Port |
 | :--- | :--- | :--- |
-| **M5Stack 360 Servo** | Atomic Motion | **S1** |
+| **DC Motor** | Atomic Motion | **M1** (Screw Terminals) |

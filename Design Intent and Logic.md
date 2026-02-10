@@ -3,7 +3,7 @@
 This document outlines the functional goals, control logic, and power management strategy for the Atomic Motion Servo project.
 
 ## 1. Project Overview
-The goal is to build a low-power, servo-driven locking mechanism (or similar actuator) using the M5AtomS3R and Atomic Motion Base. The system relies on biometric authentication to open and a magnetic sensor to auto-close, with integrated stall detection for safety.
+The goal is to build a low-power, motor-driven locking mechanism (or similar actuator) using the M5AtomS3R and Atomic Motion Base. The system relies on biometric authentication to open and a magnetic sensor to auto-close, with integrated stall detection for safety.
 
 ## 2. Core Functional Logic
 
@@ -14,23 +14,23 @@ The system operates based on three primary signals:
 *   **Signal:** Fingerprint Sensor pulls **G7 HIGH** (Wake).
 *   **Action:**
     1.  Verify Fingerprint ID.
-    2.  If authorized, drive Servo **FORWARD** (Open direction).
-    3.  Continue movement until **Stall Detected** (Mechanical Stop).
+    2.  If authorized, drive Motor **FORWARD** (Open direction).
+    3.  Continue movement until **Stall Detected** (> 80mA for 200ms) or **Timeout** (2000ms).
 
 ### B. Close Cycle (Lock)
 *   **Trigger:** Door Closed / Magnet Detected.
 *   **Signal:** Mag Switch **OPENS** circuit (Wake via state change/interrupt).
 *   **Action:**
     1.  Detect "Door Closed" state (Magnet Present).
-    2.  Drive Servo **BACKWARD** (Close direction).
-    3.  Continue movement until **Stall Detected** (Mechanical Stop).
+    2.  Drive Motor **BACKWARD** (Close direction).
+    3.  Continue movement until **Stall Detected** (> 80mA for 200ms) or **Timeout** (2000ms).
 
 ### C. Safety & Termination (Stall Detection)
 *   **Mechanism:** INA226 Current Monitor on Atomic Motion Base.
 *   **Logic:**
-    *   Monitor current during servo movement.
-    *   If `Current > Threshold` (e.g., 350mA) for `Time > Limit` (e.g., 200ms):
-    *   **IMMEDIATELY STOP** the servo.
+    *   Monitor current during motor movement.
+    *   If `Current > Threshold` (80mA) for `Time > Limit` (200ms):
+    *   **IMMEDIATELY STOP** the motor.
     *   Consider the action complete.
 
 ## 3. Power Management Strategy
@@ -83,5 +83,5 @@ The system includes a self-hosted web interface for managing fingerprints, serve
     *   Delete specific IDs (revoke access).
     *   "Erase All" function (Factory Reset).
 4.  **Test/Control:**
-    *   Manual buttons to triggers Open/Close servo actions for testing.
+    *   Manual buttons to triggers Open/Close motor actions for testing.
 

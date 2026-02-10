@@ -15,6 +15,7 @@ A robust biometric locking system built with the **M5Stack Atomic Motion Base**,
 
 *   **Controller**: M5Stack AtomS3R (ESP32-S3)
 *   **Motor Driver**: M5Stack Atomic Motion Base (STM32G030F6P6 + 4x DRV8825 equivalent)
+*   **Motor**: GA12-N20 DC 6V 60RPM Gear Motor
 *   **Fingerprint Sensor**: Grow R503 / Adafruit 4651 (Capacitive)
 *   **Power**: 3.7V LiPo Battery
 *   **Sensors**: Magnetic Reed Switch (Door position)
