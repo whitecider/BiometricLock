@@ -1,0 +1,178 @@
+[
+  {
+    "added_include_path": "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\cores\\esp32"
+  },
+  {
+    "added_include_path": "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\variants\\m5stack_atoms3"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp",
+      "object_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp.o",
+      "depfile_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp-x32\\2411/bin/xtensa-esp32s3-elf-g++",
+        "-c",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_M5STACK_ATOMS3",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"M5STACK_ATOMS3\"",
+        "-DARDUINO_VARIANT=\"m5stack_atoms3\"",
+        "-DARDUINO_PARTITION_default_8MB",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"m5stack:esp32:m5stack_atoms3:CDCOnBoot=cdc\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_RUNNING_CORE=1",
+        "-DARDUINO_EVENT_RUNNING_CORE=1",
+        "-DARDUINO_USB_MODE=1",
+        "-DARDUINO_USB_CDC_ON_BOOT=1",
+        "-DARDUINO_USB_MSC_ON_BOOT=0",
+        "-DARDUINO_USB_DFU_ON_BOOT=0",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/defines",
+        "-IC:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics",
+        "-iprefix",
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/include/",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/includes",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/qio_qspi/include",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\cores\\esp32",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\variants\\m5stack_atoms3",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/build_opt.h",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/file_opts",
+        "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp",
+        "-o",
+        "nul"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Adafruit_Fingerprint.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\leviwipf\\Documents\\Arduino\\libraries\\Adafruit_Fingerprint_Sensor_Library"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp",
+      "object_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp.o",
+      "depfile_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp-x32\\2411/bin/xtensa-esp32s3-elf-g++",
+        "-c",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_M5STACK_ATOMS3",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"M5STACK_ATOMS3\"",
+        "-DARDUINO_VARIANT=\"m5stack_atoms3\"",
+        "-DARDUINO_PARTITION_default_8MB",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"m5stack:esp32:m5stack_atoms3:CDCOnBoot=cdc\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_RUNNING_CORE=1",
+        "-DARDUINO_EVENT_RUNNING_CORE=1",
+        "-DARDUINO_USB_MODE=1",
+        "-DARDUINO_USB_CDC_ON_BOOT=1",
+        "-DARDUINO_USB_MSC_ON_BOOT=0",
+        "-DARDUINO_USB_DFU_ON_BOOT=0",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/defines",
+        "-IC:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics",
+        "-iprefix",
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/include/",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/includes",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/qio_qspi/include",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\cores\\esp32",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\variants\\m5stack_atoms3",
+        "-IC:\\Users\\leviwipf\\Documents\\Arduino\\libraries\\Adafruit_Fingerprint_Sensor_Library",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/build_opt.h",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/file_opts",
+        "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\sketch\\R503_Diagnostics.ino.cpp",
+        "-o",
+        "nul"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\leviwipf\\Documents\\Arduino\\libraries\\Adafruit_Fingerprint_Sensor_Library\\Adafruit_Fingerprint.cpp",
+      "object_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\libraries\\Adafruit_Fingerprint_Sensor_Library\\Adafruit_Fingerprint.cpp.o",
+      "depfile_path": "C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build\\libraries\\Adafruit_Fingerprint_Sensor_Library\\Adafruit_Fingerprint.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp-x32\\2411/bin/xtensa-esp32s3-elf-g++",
+        "-c",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/cpp_flags",
+        "-w",
+        "-Os",
+        "-Werror=return-type",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=240000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_M5STACK_ATOMS3",
+        "-DARDUINO_ARCH_ESP32",
+        "-DARDUINO_BOARD=\"M5STACK_ATOMS3\"",
+        "-DARDUINO_VARIANT=\"m5stack_atoms3\"",
+        "-DARDUINO_PARTITION_default_8MB",
+        "-DARDUINO_HOST_OS=\"windows\"",
+        "-DARDUINO_FQBN=\"m5stack:esp32:m5stack_atoms3:CDCOnBoot=cdc\"",
+        "-DESP32=ESP32",
+        "-DCORE_DEBUG_LEVEL=0",
+        "-DARDUINO_RUNNING_CORE=1",
+        "-DARDUINO_EVENT_RUNNING_CORE=1",
+        "-DARDUINO_USB_MODE=1",
+        "-DARDUINO_USB_CDC_ON_BOOT=1",
+        "-DARDUINO_USB_MSC_ON_BOOT=0",
+        "-DARDUINO_USB_DFU_ON_BOOT=0",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/defines",
+        "-IC:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics",
+        "-iprefix",
+        "C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/include/",
+        "@C:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/flags/includes",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\tools\\esp32-arduino-libs\\idf-release_v5.4-858a988d-v1\\esp32s3/qio_qspi/include",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\cores\\esp32",
+        "-IC:\\Users\\leviwipf\\AppData\\Local\\Arduino15\\packages\\m5stack\\hardware\\esp32\\3.2.5\\variants\\m5stack_atoms3",
+        "-IC:\\Users\\leviwipf\\Documents\\Arduino\\libraries\\Adafruit_Fingerprint_Sensor_Library",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/build_opt.h",
+        "@C:\\Users\\leviwipf\\sources\\BiometricLock\\R503_Diagnostics\\build/file_opts",
+        "C:\\Users\\leviwipf\\Documents\\Arduino\\libraries\\Adafruit_Fingerprint_Sensor_Library\\Adafruit_Fingerprint.cpp",
+        "-o",
+        "nul"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]

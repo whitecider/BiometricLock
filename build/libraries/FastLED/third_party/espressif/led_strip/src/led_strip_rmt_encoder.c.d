@@ -1,0 +1,30 @@
+C:\Users\leviwipf\sources\BiometricLock\build\libraries\FastLED\third_party\espressif\led_strip\src\led_strip_rmt_encoder.c.o: \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src\third_party\espressif\led_strip\src\led_strip_rmt_encoder.c \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src\third_party\espressif\led_strip\src\enabled.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/qio_qspi/include/sdkconfig.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src/platforms/esp/esp_version.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src/fl/has_include.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_common/include/esp_idf_version.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src/fl/unused.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_common/include/esp_check.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_common/include/esp_err.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_common/include/esp_compiler.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/log/include/esp_log.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/log/include/esp_log_level.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/log/include/esp_log_color.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/log/include/esp_log_buffer.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/log/include/esp_log_timestamp.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src\third_party\espressif\led_strip\src\led_strip_rmt_encoder.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src/fl/stdint.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_driver_rmt/include/driver/rmt_encoder.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/hal/include/hal/rmt_types.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/soc/esp32s3/include/soc/clk_tree_defs.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/soc/esp32s3/include/soc/soc_caps.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/soc/esp32s3/include/soc/mpu_caps.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_driver_rmt/include/driver/rmt_types.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/hal/include/hal/gpio_types.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/soc/esp32s3/include/soc/gpio_num.h \
+ C:\Users\leviwipf\AppData\Local\Arduino15\packages\m5stack\tools\esp32-arduino-libs\idf-release_v5.4-858a988d-v1\esp32s3/include/esp_common/include/esp_bit_defs.h \
+ C:\Users\leviwipf\Documents\Arduino\libraries\FastLED\src\third_party\espressif\led_strip\src\led_strip_types.h
