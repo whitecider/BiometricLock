@@ -22,7 +22,6 @@ void PowerManager::enterDeepSleep(bool isDoorOpen) {
     esp_sleep_enable_ext1_wakeup(1ULL << PIN_FP_WAKE, ESP_EXT1_WAKEUP_ALL_LOW);
 
     // 2. Wake on Door State Change (Dynamic)
-    // SPDT Switch Re-Wired (Power Optimized):
     // - Door Closed (Magnet Present) -> Switch OPEN   -> Pin HIGH (Internal Pullup) -> Current = 0
     // - Door Open (Magnet Away)      -> Switch CLOSED -> Pin LOW (Grounded)       -> Current = 70uA
     
