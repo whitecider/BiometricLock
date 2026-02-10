@@ -7,6 +7,7 @@ This document details the physical connection and wiring for the M5AtomS3R syste
 | Component | Description | Source / Link |
 | :--- | :--- | :--- |
 | **Controller** | M5Stack AtomS3R | [M5Stack Product Page](https://shop.m5stack.com/products/atoms3r-esp32-s3-dev-kit) |
+| **Cable** | Grove to 4 Pin Female Jumper Cable (Quantity: 2) | [RS Online](https://uk.rs-online.com/web/p/development-tool-accessories/1793730) |
 | **Motion Base** | Atomic Motion Base v1.2 | [M5Stack Product Page](https://shop.m5stack.com/products/atomic-motion-base-v1-2) |
 | **Fingerprint Sensor** | Capacitive Fingerprint Sensor | [Mouser Electronics](https://www.mouser.co.uk/ProductDetail/Adafruit/4651?qs=hWgE7mdIu5QeotkqGbcDDQ%3D%3D) |
 | **Mag Switch** | ASSEMtech S1367 (SPDT) | [RS Online](https://uk.rs-online.com/web/p/magnetic-proximity-switches/2897806) |
